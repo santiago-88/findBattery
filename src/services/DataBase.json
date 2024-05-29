@@ -1,0 +1,14 @@
+[
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "battery": "BatteryModelA",
+      "amperage": "60A"
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "battery": "BatteryModelB",
+      "amperage": "55A"
+    }  ]
+  
