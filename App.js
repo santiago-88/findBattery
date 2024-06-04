@@ -11,16 +11,11 @@ import { TextInput } from 'react-native';
 
 
 const App = () => {
-  const [category, setCategory] = useState("");
-  const [categories, setCategories] = useState([]);
 
   return (
     <View>
     <StatusBar backgroundColor="orange" />     
-   
-      <SafeAreaView style={styles.container}>
       <BatterySearch />
-    </SafeAreaView>
     </View>
   );
 }
@@ -30,6 +25,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+
   },
 });
 
